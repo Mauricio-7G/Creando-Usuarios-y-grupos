@@ -1,0 +1,15 @@
+# Creando-Usuarios-y-grupos
+Software Libre (Debian)
+
+Creación de un grupo en el cual le colocaremos  por nombre CASA, el comando a utilizar es:
+#sudo groupadd (nombre de grupo)
+
+Dentro del grupo que creamos en el paso anterior, crearemos 2 usuarios en el cual crearemos  2 usuarios en 1 colocaremos por nombre DAVID  y en el segundo IRMA, seguidamente
+crearemos un usuario con nombre personal en el cual crearemos  con nombre MAURICIO, usando el siguiente comando:
+#sudo useradd (nombre de usuario)
+
+Los usuarios que creamos en el paso anterior los añadiremos al grupo que creamos en el paso 1, utilizando el comando :
+#sudo adduser (nombre de usuario) (nombre de grupo)
+
+Como último paso cambiaremos el nombre del grupo que creamos en el paso 1 y le colocaremos como nombre FAMILIA, para ello utilizaremos el comando: 
+#sudo groupmod -n (nuevo nombre de grupo) (nombre anterior de grupo)
